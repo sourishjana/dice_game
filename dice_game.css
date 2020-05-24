@@ -1,0 +1,159 @@
+body{
+    background-image: url('./images/trianglify1.jpg');
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .box-0{
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+  }
+  .box-1{
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+.active{
+  background-color: rgb(238, 238, 237);
+  color: #994141;
+}
+
+  .main_body{
+      position: relative;
+    content: "";
+    margin:auto;
+    clear: both;
+    margin-top:100px;
+    display: table;
+    width:60%;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 8px #888888;
+  }
+a.player1:hover {
+    background-color: rgb(174, 180, 174);
+}
+a.player2:hover {
+    background-color: rgb(188, 192, 188);
+}
+a.player1:link {
+    background-color: rgb(255, 255, 255);
+  }
+  
+a.player1:visited {
+    background-color: rgb(255, 255, 255);
+  }
+a.player1:active {
+    background-color: rgb(236, 233, 233);
+  } 
+  a.player2:link {
+    background-color: rgb(211, 211, 209);
+  }
+  
+a.player2:visited {
+    background-color: rgb(219, 221, 221);
+  }
+a.player2:active {
+    background-color: rgb(228, 227, 227);
+  } 
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.dice{
+    position:absolute;
+    float: center;
+    left:50%;
+    transform: translateX(-50%);
+    top: 200px;
+    box-shadow: 2px 2px 18px #888888;
+}
+.newgame{
+    position:absolute;
+    text-align: center;
+    /*right:410px;*/
+    left:50%;
+    transform: translateX(-50%);
+    /**/
+    top:80px;
+    border: 4px;
+    border-color: black;
+    box-shadow: 2px 2px 8px #888888;
+}
+.rolldice{
+  position:absolute;
+  text-align: center;
+  left:50%;
+  transform: translateX(-50%);
+  top:310px;
+  border: 4px;
+  border-color: black;
+  box-shadow: 2px 2px 8px #888888;
+}
+.hold{
+  position:absolute;
+  text-align: center;
+  left:50%;
+  transform: translateX(-50%);
+  top:380px;
+  border: 4px;
+  border-color: black;
+  box-shadow: 2px 2px 8px #888888;
+}
+.final-score{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:430px;
+  color:#555;
+  font-size: 18px;
+  font-family: 'Lato';
+  text-align: center;
+  padding: 10px;
+  width:160px;
+  height: 30px;
+  text-transform: uppercase;
+}
+a.newgame:hover{
+    color: #994141;
+}
+
+.player1scorebox{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  text-align:center;
+  margin:auto;
+}
+.player2scorebox{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  text-align:center;
+  margin:auto;
+}
+.player1score{
+  font-size: 40px;
+}
+.player2score{
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
